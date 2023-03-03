@@ -1,0 +1,52 @@
+html { 
+  font-family: sans-serif; 
+  padding: 1rem; 
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  color: white;
+}
+
+head {
+  font-weight: 500;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  font-weight: 600; 
+}
+
+input[type=submit], button[type=submit] { 
+  margin-right: 1rem;
+  margin-top: 1rem;
+  width: 80px;
+  height: 30px;
+  color:blue
+}
+
+input[type=text] {
+  height: 5.0vh;
+  margin: 10px;
+}
+
+h3 logout {
+  margin: 0;
+}
+
+#login-form {
+  position: fixed;
+  display: inline-block;
+  margin-top: 13em;
+  margin-left: 30em;
+}
+
+#register-form {
+  position: fixed;
+  display: inline-block;
+  margin-top: 15em;
+  margin-left: 25em;
+}
+
+.container {
+  margin-top: 10em;
+  margin-left: 35em;
+}

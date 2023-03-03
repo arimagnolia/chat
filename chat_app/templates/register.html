@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block head %} 
+        Register - Chat App
+{% endblock %}
+
+{% block body %}
+    <form action ="{{ url_for('register_controller')}}" method="post" id="register-form">
+         <label for="username">Username:</label>
+        <input type="text" id = "username" name="username"><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="username">Password:</label>
+        <input type="text" id="password" name="password"><br>
+        <label for="password_again">Retype password:</label>
+        <input type="text" id="password_again" name="password_again"><br>
+        <input type="submit" id="register" value="Register">
+    </form> 
+{% endblock %}
